@@ -1,0 +1,16 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+   xsi:schemaLocation="
+   http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+   <bean id="smsconfig" class="org.sci.model.SunChitSms">
+   <property name="SunstechitUrl" value="http://sms.sunstechit.com/app/smsapi/index.php"/>
+   <property name="SunstechitKey" value="35AE3FAB1BE79E"/>
+   <property name="SunstechitRouteId" value="4"/>
+   <property name="SunstechitType" value="text"/>
+   <property name="SunstechitCampaign" value="0"/>
+   <property name="SunstechitSenderId" value="SYSCON"/>
+ </bean>
+ 
+ 
+   </beans> 
